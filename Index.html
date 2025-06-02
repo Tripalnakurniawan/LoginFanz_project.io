@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALAMAN LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <style>More actions
+  .inputtext {
+    width: 100%;
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff1dc;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+
+  .tombol {
+    width: 100%;
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #f49d1a;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+  }
+
+  div {
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  #timer {
+    color: #bad7e9;
+  }
+
+  body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+</style>
+        <center>
+           
+<img src="images/LogoPortofolio.png" alt="" width="150px">
+    <div class="div1">
+        <form name="myform" method="post">
+            <input
+              type="text"
+              name="uname"
+              class="inputtext"
+              autocomplete="off"
+              placeholder="Username"
+            />
+            <br />
+            <input
+              type="password"
+              name="pass"
+              class="inputtext"
+              autocomplete="off"
+              placeholder="Password"
+            />
+            <br />
+            <div id="timer"></div>
+            <br />
+            <input
+              type="button"
+              class="tombol"
+              name="log"
+              id="logbutton"
+              value="Silahkan Masuk"
+              onclick="myfunction()"
+            />
+            <br /><br />
+          </form>
+
+    </div>
+        </center>
+    </center
+</body>
+<script type="text/javascript">
+    function myfunction() {
+        var un = document.forms["myform"]["uname"].value;
+    var pw = document.forms["myform"]["pass"].value;
+    if(un == "MTK348" && pw == "12345") [
+        window.open("https://drive.google.com/drive/folders/1iB4-QeU8mDalI9MM9CCfg9-34c8BEPth?usp=drive_link")
+    ]; else if(un == "MTK815" && pw == "09876" ) {
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSdwHeinOMGvDbY_LX6lj4dCzczFkMk07ap8Xo8eiv471YabZA/viewform?usp=dialog")
+    } else if (un == "MTKFANZ" && pw == "300408#" ) {
+        window.open("https://docs.google.com/document/d/1TceZ4kRk_tZ69I1WmGKvWohxkc_gT7W8dZNOoceRia4/edit?pli=1&tab=t.0")
+    } else {
+            window.location.href = "404.html"; // Arahkan ke halaman 404 jika salah
+        }
+    
+        
+    
+    }
+    
+    
+
+</script>
+</html>
